@@ -1,0 +1,1 @@
+function web() { python -m SimpleHTTPServer; }

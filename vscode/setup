@@ -1,0 +1,13 @@
+#!/bin/sh
+# Setup a machine for Sublime Text 3
+set -x
+
+# symlink settings in
+vscode_dir=~/Library/Application\ Support/Code/User
+mv "$vscode_dir/settings.json" "$vscode_dir/setings.json.backup"
+mv "$vscode_dir/keybindings.json" "$vscode_dir/keybindings.json.backup"
+mv "$vscode_dir/snippets" "$vscode_dir/snippets.backup"
+
+ln -s "$ZSH/vscode/settings.json" "$vscode_dir"
+ln -s "$ZSH/vscode/keybindings.json" "$vscode_dir"
+ln -s "$ZSH/vscode/snippets" "$vscode_dir"

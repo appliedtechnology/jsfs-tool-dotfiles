@@ -1,0 +1,22 @@
+{
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+    "window.zoomLevel": 0,
+    "editor.tabSize": 2,
+    "workbench.colorTheme": "Quiet Light",
+    "files.associations": {
+      "*.tag": "html"
+    },
+    "files.autoSave": "afterDelay",
+    "sync.gist": "b795d46e614832934f0d907c839d02c8",
+    "sync.lastUpload": "2017-05-09T18:49:04.690Z",
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.lastDownload": "",
+    "sync.forceDownload": false,
+    "sync.anonymousGist": false,
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "sync.quietSync": false
+  }  
