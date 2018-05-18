@@ -37,7 +37,7 @@ defaults write NSGlobalDomain AppleHighlightColor -string "0.764700 0.976500 0.5
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
 
-# Save screenshots to the desktop
+# Save screenshots to the Documents folder
 defaults write com.apple.screencapture location -string "${HOME}/Documents"
 
 # Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)

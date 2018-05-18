@@ -1,1 +1,0 @@
-alias typora="open -a typora"
