@@ -14,15 +14,18 @@ When you are done continue below
 
 ## Applying to a computer for the first time
 
+1. Open the Terminal
+1. Install [Oh My Zsh](http://ohmyz.sh/) => `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 1. Go to the root folder => `cd ~`
-2. Clone this repo into the `.dotfiles`-directory => `git clone https://github.com/{yourusername}/jsfullstackdev-dotfiles.git .dotfiles`
-3. Go into the directory => `cd .dotfiles`
+1. Clone this repo into the `.dotfiles`-directory => `git clone https://github.com/{yourusername}/jsfullstackdev-dotfiles.git .dotfiles`
+  1. The step above will trigger you to install git
+1. Go into the directory => `cd .dotfiles`
 
 You now have a copy of the dotfiles on your own computer.
 
-4. Run the bootstrapping script => `bash bin/dot`
-5. Stay around for a few minutes, because there will be some questions early in the process
-6. After the whole thing starts to crunch away - go get a coffee and read a book. There's a lot to download.
+1. Run the bootstrapping script => `bash bin/dot && bash scripts/bootstrap`
+1. Stay around for a few minutes, because there will be some questions early in the process
+1. After the whole thing starts to crunch away - go get a coffee and read a book. There's a lot to download.
 
 ## Keeping your computer updated
 
