@@ -15,21 +15,22 @@ When you are done continue below
 ## Applying to a computer for the first time
 
 1. Open the Terminal
+1. Install xcode command line tools by typing this at the command prompt: `xcode-select --install`
 1. Install [Oh My Zsh](http://ohmyz.sh/) => `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 1. Go to the root folder => `cd ~`
 1. Clone this repo into the `.dotfiles`-directory => `git clone https://github.com/{yourusername}/jsfullstackdev-dotfiles.git .dotfiles`
-  1. The step above will trigger you to install git
-1. Go into the directory => `cd .dotfiles`
+1. You will have to log in using your Salt-GitHub account to do that
 
 You now have a copy of the dotfiles on your own computer.
 
-1. Run the bootstrapping script => `bash bin/dot && bash scripts/bootstrap`
+1. Go into the directory => `cd .dotfiles`
+1. Run the bootstrapping script => `bash scripts/bootstrap`
 1. Stay around for a few minutes, because there will be some questions early in the process
 1. After the whole thing starts to crunch away - go get a coffee and read a book. There's a lot to download.
 
 ## Keeping your computer updated
 
-Things change. Often and fast. Every so often you would like to re-run the boostrap script (`bash scripts/bootstrap`) to keep your computer up to date.
+Things change. Often and fast. Every so often you would like to re-run the boostrap script (`bash bin/dot`) to keep your computer up to date.
 
 I do this bi-weekly.
 
