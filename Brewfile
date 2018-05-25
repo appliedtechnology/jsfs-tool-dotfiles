@@ -29,6 +29,8 @@ brew 'telnet'
 brew 'unrar'
 brew 'wget'
 brew 'yarn'
+brew 'zsh'
+brew 'zsh-completions'
 
 cask 'docker'
 cask 'font-fira-code'
