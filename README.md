@@ -20,7 +20,7 @@ When you are done continue below
 
 You now have a copy of the dotfiles on your own computer.
 
-4. Run the bootstrapping script => `bash scripts/bootstrap`
+4. Run the bootstrapping script => `bash bin/dot`
 5. Stay around for a few minutes, because there will be some questions early in the process
 6. After the whole thing starts to crunch away - go get a coffee and read a book. There's a lot to download.
 
