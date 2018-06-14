@@ -30,7 +30,7 @@ You now have a copy of the dotfiles on your own computer.
 
 ## Keeping your computer updated
 
-Things change. Often and fast. Every so often you would like to re-run the boostrap script (`bash bin/dot`) to keep your computer up to date.
+Things change. Often and fast. Every so often you would like to run the `dot` command that ensures that everything is up to date.
 
 I do this bi-weekly.
 
