@@ -14,12 +14,25 @@ When you are done continue below
 
 ## Applying to a computer for the first time
 
-1. Open the Terminal
+1. Open the Terminal to do some base installing
 1. Install xcode command line tools by typing this at the command prompt: `xcode-select --install`
+1. Install [Homebrew](https://brew.sh/) => `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 1. Install [Oh My Zsh](http://ohmyz.sh/) => `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+
+Do it all at once:
+
+```bash
+xcode-select --install
+
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
 1. Go to the root folder => `cd ~`
-1. Clone this repo into the `.dotfiles`-directory => `git clone https://github.com/{yourusername}/jsfullstackdev-dotfiles.git .dotfiles`
-1. You will have to log in using your Salt-GitHub account to do that
+1. Clone this repo into the `.dotfiles`-directory => `git clone https://github.com/saltsthlm/jsfullstackdev-dotfiles.git .dotfiles`
+  1. Or if you have cloned this already it would be something like `git clone https://github.com/{username}/jsfullstackdev-dotfiles.git .dotfiles`
+  1. You will have to log in using your Salt-GitHub account to do that
 
 You now have a copy of the dotfiles on your own computer.
 
