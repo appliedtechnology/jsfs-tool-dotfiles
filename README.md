@@ -15,18 +15,13 @@ When you are done continue below
 ## Applying to a computer for the first time
 
 1. Open the Terminal to do some base installing
-1. Install xcode command line tools by typing this at the command prompt: `xcode-select --install`
 1. Install [Homebrew](https://brew.sh/) => `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 1. Install [Oh My Zsh](http://ohmyz.sh/) => `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
-Do it all at once:
+Or do it in one go:
 
 ```bash
-xcode-select --install
-
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" && sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
 1. Go to the root folder => `cd ~`
