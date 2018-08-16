@@ -14,16 +14,9 @@ When you are done continue below
 
 ## Applying to a computer for the first time
 
-1. Open the Terminal to do some base installing
+1. Open the Terminal
 1. Install [Homebrew](https://brew.sh/) => `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 1. Install [Oh My Zsh](http://ohmyz.sh/) => `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
-
-Or do it in one go:
-
-```bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" && sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-```
-
 1. Go to the root folder => `cd ~`
 1. Clone this repo into the `.dotfiles`-directory => `git clone https://github.com/saltsthlm/jsfullstackdev-dotfiles.git .dotfiles`
   1. Or if you have cloned this already it would be something like `git clone https://github.com/{username}/jsfullstackdev-dotfiles.git .dotfiles`
@@ -32,9 +25,26 @@ Or do it in one go:
 You now have a copy of the dotfiles on your own computer.
 
 1. Go into the directory => `cd .dotfiles`
-1. Run the bootstrapping script => `bash scripts/bootstrap`
+1. Run the bootstrapping script => `bash script/bootstrap`
 1. Stay around for a few minutes, because there will be some questions early in the process
 1. After the whole thing starts to crunch away - go get a coffee and read a book. There's a lot to download.
+
+
+Or do it in one go:
+
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+cd ~
+git clone https://github.com/saltsthlm/jsfullstackdev-dotfiles.git .dotfiles
+cd .dotfiles
+
+bash script/bootstrap
+
+cd ~
+```
+
 
 ## Keeping your computer updated
 
