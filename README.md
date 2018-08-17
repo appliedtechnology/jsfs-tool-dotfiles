@@ -17,14 +17,12 @@ All your computers has been preconfigured by running the bootstrapping scripts a
 1. When everything is done - install [Oh My Zsh](http://ohmyz.sh/) => `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 1. Restart you computer
 
-Or do it in a single chain:
+Or do it in a single command:
 
 ```bash
-sudo softwareupdate -i -a &&
-git clone https://github.com/saltsthlm/jsfullstackdev-dotfiles.git ~/.dotfiles &&
-bash ~/.dotfiles/script/bootstrap &&
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/saltsthlm/jsfullstackdev-dotfiles/master/script/automationAug18.sh)"
 ```
+
 
 ### Keeping your computer updated
 
