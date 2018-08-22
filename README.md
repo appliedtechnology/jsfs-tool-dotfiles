@@ -22,7 +22,39 @@ Or do it in a single command:
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/saltsthlm/jsfullstackdev-dotfiles/master/script/automationAug18.sh)"
 ```
-@appliedtechnology.se
+
+jocelyn.englund@appliedtechnology.se
+sascha.ringstrom@appliedtechnology.se
+suzette.sonnekus@appliedtechnology.se
+maria.dullaghan@appliedtechnology.se
+gozde.kilic@appliedtechnology.se
+joakim.sjostedt@appliedtechnology.se
+matas.graubauskas@appliedtechnology.se
+malin.jaworski@appliedtechnology.se
+kumjee.kim@appliedtechnology.se
+tyler.dauria@appliedtechnology.se
+anton.hanni@appliedtechnology.se
+michael.fichter@appliedtechnology.se
+jayanthi.padmanabhan@appliedtechnology.se
+triveni.londhe@appliedtechnology.se
+arjun.reddy@appliedtechnology.se
+alejandro.bedoya@appliedtechnology.se
+charan.shrestha@appliedtechnology.se
+george.wallin@appliedtechnology.se
+anton.bruckner@appliedtechnology.se
+emma.back@appliedtechnology.se
+anton.friskopp@appliedtechnology.se
+maria.leone@appliedtechnology.se
+mies.cirillo@appliedtechnology.se
+protik.sarkar@appliedtechnology.se
+william.strueber@appliedtechnology.se
+emer.chíobhain@appliedtechnology.se
+sumaiya.alam@appliedtechnology.se
+patrik.johansson@appliedtechnology.se
+alexander.duimovich@appliedtechnology.se
+charlotte.curran@appliedtechnology.se
+joakim.nilsson@appliedtechnology.se
+
 
 ### Keeping your computer updated
 
