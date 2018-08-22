@@ -22,7 +22,7 @@ Or do it in a single command:
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/saltsthlm/jsfullstackdev-dotfiles/master/script/automationAug18.sh)"
 ```
-
+@appliedtechnology.se
 
 ### Keeping your computer updated
 
