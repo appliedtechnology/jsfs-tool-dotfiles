@@ -23,7 +23,7 @@ Or do it in a single command:
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/saltsthlm/jsfullstackdev-dotfiles/master/script/automationAug18.sh)"
 ```
 
-jocelyn.englund@appliedtechnology.se
+peter.camerini@appliedtechnology.se
 sascha.ringstrom@appliedtechnology.se
 suzette.sonnekus@appliedtechnology.se
 maria.dullaghan@appliedtechnology.se
