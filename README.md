@@ -23,37 +23,37 @@ Or do it in a single command:
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/saltsthlm/jsfullstackdev-dotfiles/master/script/automationAug18.sh)"
 ```
 
-peter.camerini@appliedtechnology.se
-sascha.ringstrom@appliedtechnology.se
-suzette.sonnekus@appliedtechnology.se
-maria.dullaghan@appliedtechnology.se
-gozde.kilic@appliedtechnology.se
-joakim.sjostedt@appliedtechnology.se
-matas.graubauskas@appliedtechnology.se
-malin.jaworski@appliedtechnology.se
-kumjee.kim@appliedtechnology.se
-tyler.dauria@appliedtechnology.se
-anton.hanni@appliedtechnology.se
-michael.fichter@appliedtechnology.se
-jayanthi.padmanabhan@appliedtechnology.se
-triveni.londhe@appliedtechnology.se
-arjun.reddy@appliedtechnology.se
-alejandro.bedoya@appliedtechnology.se
-charan.shrestha@appliedtechnology.se
-george.wallin@appliedtechnology.se
-anton.bruckner@appliedtechnology.se
-emma.back@appliedtechnology.se
-anton.friskopp@appliedtechnology.se
-maria.leone@appliedtechnology.se
-mies.cirillo@appliedtechnology.se
-protik.sarkar@appliedtechnology.se
-william.strueber@appliedtechnology.se
-emer.chíobhain@appliedtechnology.se
-sumaiya.alam@appliedtechnology.se
-patrik.johansson@appliedtechnology.se
-alexander.duimovich@appliedtechnology.se
-charlotte.curran@appliedtechnology.se
-joakim.nilsson@appliedtechnology.se
+| Namn                    | Email - salt                                |
+| ----------------------- | ------------------------------------------- |
+| Aimas Doughouz          | aimas.doughouz@appliedtechnology.se         |
+| Albin Rhode             | albin.rohde@appliedtechnology.se            |
+| Aleksandar Slijvar      | aleksandar.slijvar@appliedtechnology.se     |
+| Alexander Hiamchan      | alexander.hiamchan@appliedtechnology.se     |
+| Alexander Yalcin        | alexander.yalcin@appliedtechnology.se       |
+| Ashleigh Huskinson      | ashleigh.huskinson@appliedtechnology.se     |
+| Douglas Sebom           | douglas.sebom@appliedtechnology.se          |
+| Emma Macintosh          | emma.macintosh@appliedtechnology.se         |
+| Erik Ahlgren            | erik.ahlgren@appliedtechnology.se           |
+| Felix Johnson           | felix.johnson@appliedtechnology.se          |
+| Hampus Danielsson       | hampus.danielsson@appliedtechnolgy.se       |
+| Jesper Olsson           | jesper.olsson@appliedtechnology.se          |
+| Jonas Apelfjord         | jonas.apelfjord@appliedtechnology.se        |
+| Keena Faison            | keena.faison@appliedtechnology.se           |
+| Leonilla Forsblom       | leonilla.forsblom@appliedtechnology.se      |
+| Mikael Ojaskivi         | mikael.ojaskivi@appliedtechnology.se        |
+| Mosa Marzroui-Sebdani   | mosa.sebdani@appliedtechnology.se           |
+| Myrina Petrocheilou     | myrina.petrocheilou@appliedtechnology.se    |
+| Måns Kronkvist Brusbäck | måns.kronkvistbrusback@appliedtechnology.se |
+| Przemek Grzelczyk       | przemek.grzelcyk@appliedtechnology.se       |
+| Rae Williams            | syrae.williams@appliedtechnology.se         |
+| Reuben Vas              | reuben.vas@appliedtechnology.se             |
+| Rhoneil Gabriel         | rhoneil.gabriel@appliedtechnology.se        |
+| Sudha Vecha             | ?                                           |
+| Tajin Joya              | tajin.joya@appliedtechnology.se             |
+| Teodor Jonsson          | teodor.jonsson@appliedtechnology.se         |
+| Tobias Hiort            | tobias.hiort@appliedtechnology.se           |
+| Vilda Siurblyte         | vilda.siurblyte@appliedtechnology.se        |
+| Yannis Bouacida         | yannis.bouacida@appliedtechnology.se        |
 
 
 ### Keeping your computer updated
