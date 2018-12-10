@@ -5,3 +5,6 @@ git clone https://github.com/saltsthlm/salt-jsfs-dotfiles.git ~/.dotfiles
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sed 's:env zsh -l::g' | sed 's:chsh -s .*$::g')"
 
 bash ~/.dotfiles/script/bootstrap
+
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
