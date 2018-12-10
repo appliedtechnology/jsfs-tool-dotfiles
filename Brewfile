@@ -2,11 +2,9 @@ cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
 tap 'caskroom/versions'
-tap 'grammarly/tap'
 tap 'caskroom/fonts'
 
 brew 'p7zip'
-brew 'ack'
 brew 'coreutils'
 brew 'curl'
 brew 'docker'
