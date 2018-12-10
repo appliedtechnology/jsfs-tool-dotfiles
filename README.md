@@ -20,7 +20,7 @@ All your computers has been preconfigured by running the bootstrapping scripts a
 Or do it in a single command:
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/saltsthlm/jsfullstackdev-dotfiles/master/script/automationAug18.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/saltsthlm/salt-jsfs-dotfiles/master/script/automationWinter19.sh)"
 ```
 
 | Namn                    | Email - salt                                |
