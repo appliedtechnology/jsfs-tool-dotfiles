@@ -1,0 +1,23 @@
+Script started on Mon Dec 10 09:33:44 2018
+^C/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/rubygems.rb:1230:in `require': Interrupt
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/rubygems.rb:1230:in `<module:Gem>'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/rubygems.rb:116:in `<top (required)>'
+	from <internal:gem_prelude>:4:in `require'
+	from <internal:gem_prelude>:4:in `<internal:gem_prelude>'
+^[1m[7m%[27m[1m[0m                                                                                                                                  [0m[27m[24m[J
+$(battery_status)in $(directory_name) $(git_dirty)$(need_push)
+› [K[127C[01;36m[00m[127D[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                  [0m[27m[24m[J
+$(battery_status)in $(directory_name) $(git_dirty)$(need_push)
+› [K[127C[01;36m[00m[127D[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                  [0m[27m[24m[J
+$(battery_status)in $(directory_name) $(git_dirty)$(need_push)
+› [K[127C[01;36m[00m[127D[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                  [0m[27m[24m[J
+$(battery_status)in $(directory_name) $(git_dirty)$(need_push)
+› [K[127C[01;36m[00m[127D[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                  [0m[27m[24m[J
+$(battery_status)in $(directory_name) $(git_dirty)$(need_push)
+› [K[127C[01;36m[00m[127D[?2004heexit[?2004l
+
+Script done on Mon Dec 10 09:33:49 2018
