@@ -5,56 +5,29 @@ All your computers has been preconfigured by running the bootstrapping scripts a
 
 ## How to's
 
-### Applying to a computer for the first time
+### Installing these dotfiles computer for the first time
+
+#### Semi-manually
 
 1. Open the Terminal
-1. Go to the root folder => `cd ~`
+1. Go to the root folder => `cd ~`, if you are not there already
+1. Install [Oh My Zsh](http://ohmyz.sh/) => `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+1. Open a new terminal window
 1. Clone this repo into the `.dotfiles`-directory => `git clone https://github.com/saltsthlm/jsfullstackdev-dotfiles.git .dotfiles`
 1. Go into the directory => `cd .dotfiles`
 1. Run the bootstrapping script => `bash script/bootstrap`
 1. Stay around for a few minutes, because there will be some questions early in the process
-1. After the whole thing starts to crunch away - go get a coffee and read a book. There's a **lot** to download.
-1. When everything is done - install [Oh My Zsh](http://ohmyz.sh/) => `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
-1. Restart you computer
+1. After the whole thing starts to crunch away - go get a coffee and read a book. There's a **lot** to download. Takes about 35 minutes for the first install
+1. When everything is done: restart you computer or at least the terminal
 
-Or do it in a single command:
+#### Semi-automatic
 
-```bash
+Sadly this cannot be done in one single command as we need OhMyZsh installed before running our own script.
+
+1. First install [Oh My Zsh](http://ohmyz.sh/) => `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+2. Run this command: `bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/saltsthlm/salt-jsfs-dotfiles/master/script/automationWinter19.sh)"
-```
-
-| Namn                    | Email - salt                                |
-| ----------------------- | ------------------------------------------- |
-| Aimas Doughouz          | aimas.doughouz@appliedtechnology.se         |
-| Albin Rhode             | albin.rohde@appliedtechnology.se            |
-| Aleksandar Slijvar      | aleksandar.slijvar@appliedtechnology.se     |
-| Alexander Hiamchan      | alexander.hiamchan@appliedtechnology.se     |
-| Alexander Yalcin        | alexander.yalcin@appliedtechnology.se       |
-| Ashleigh Huskinson      | ashleigh.huskinson@appliedtechnology.se     |
-| Douglas Sebom           | douglas.sebom@appliedtechnology.se          |
-| Emma Macintosh          | emma.macintosh@appliedtechnology.se         |
-| Erik Ahlgren            | erik.ahlgren@appliedtechnology.se           |
-| Felix Johnson           | felix.johnson@appliedtechnology.se          |
-| Hampus Danielsson       | hampus.danielsson@appliedtechnolgy.se       |
-| Jesper Olsson           | jesper.olsson@appliedtechnology.se          |
-| Jonas Apelfjord         | jonas.apelfjord@appliedtechnology.se        |
-| Keena Faison            | keena.faison@appliedtechnology.se           |
-| Leonilla Forsblom       | leonilla.forsblom@appliedtechnology.se      |
-| Mikael Ojaskivi         | mikael.ojaskivi@appliedtechnology.se        |
-| Mosa Marzroui-Sebdani   | mosa.sebdani@appliedtechnology.se           |
-| Myrina Petrocheilou     | myrina.petrocheilou@appliedtechnology.se    |
-| Måns Kronkvist Brusbäck | måns.kronkvistbrusback@appliedtechnology.se |
-| Przemek Grzelczyk       | przemek.grzelcyk@appliedtechnology.se       |
-| Rae Williams            | syrae.williams@appliedtechnology.se         |
-| Reuben Vas              | reuben.vas@appliedtechnology.se             |
-| Rhoneil Gabriel         | rhoneil.gabriel@appliedtechnology.se        |
-| Sudha Vecha             | ?                                           |
-| Tajin Joya              | tajin.joya@appliedtechnology.se             |
-| Teodor Jonsson          | teodor.jonsson@appliedtechnology.se         |
-| Tobias Hiort            | tobias.hiort@appliedtechnology.se           |
-| Vilda Siurblyte         | vilda.siurblyte@appliedtechnology.se        |
-| Yannis Bouacida         | yannis.bouacida@appliedtechnology.se        |
-
+`
 
 ### Keeping your computer updated
 
