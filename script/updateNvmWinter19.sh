@@ -2,6 +2,9 @@
 
 sudo chown -R $USER:$(id -gn $USER) ~/.config
 
+brew uninstall --ignore-dependencies --force node
+brew uninstall --ignore-dependencies --force node@10
+
 dot
 
 . $(brew --prefix nvm)/nvm.sh
