@@ -1,5 +1,5 @@
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/saltsthlm/salt-jsfs-dotfiles/master/script/updateNvmWinter19.sh)"
+zsh -c "$(curl -fsSL https://raw.githubusercontent.com/saltsthlm/salt-jsfs-dotfiles/master/script/updateNvmWinter19.sh)"
 ```
 
 # jsfullstackdev-dotfiles
