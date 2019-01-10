@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 sudo chown -R $USER:$(id -gn $USER) ~/.config
 
