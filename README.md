@@ -1,7 +1,7 @@
 # jsfullstackdev-dotfiles
 With these files and scripts we have configured the development machines we are using in the FullStack Javascript developer course
 
-All your computers has been preconfigured by running the bootstrapping scripts as described below. Feel free to tweak them to your liking.
+All your computers has been preconfigured by running the bootstrapping scripts as described below.
 
 ## How to's
 
@@ -24,10 +24,17 @@ All your computers has been preconfigured by running the bootstrapping scripts a
 
 Sadly this cannot be done in one single command as we need OhMyZsh installed before running our own script.
 
-1. First install [Oh My Zsh](http://ohmyz.sh/) => `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
-2. Run this command: `bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/saltsthlm/salt-jsfs-dotfiles/master/script/automationWinter19.sh)"
-`
+1. First install [Oh My Zsh](http://ohmyz.sh/):
+
+  ```bash
+  sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  ```
+2. Run this command:
+
+  ```bash
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/saltsthlm/salt-jsfs-dotfiles/master/script/automationSpring19.sh)"
+  ```
+3. Wait for about 35 minutes per computer
 
 ### Keeping your computer updated
 
