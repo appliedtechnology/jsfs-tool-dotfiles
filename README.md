@@ -12,7 +12,11 @@ All your computers has been preconfigured by running the bootstrapping scripts a
 1. Open the Terminal
 1. Go to the root folder => `cd ~`, if you are not there already
 1. Install [Oh My Zsh](http://ohmyz.sh/) => `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
-1. Open a new terminal window
+
+  > The above command will trigger installation of xCode developer tools. Agree to the installation.
+  > Once the installation is done, rerun the oh-my-zsh installation above.
+
+4. Open a new terminal window
 1. Clone this repo into the `.dotfiles`-directory => `git clone https://github.com/saltsthlm/jsfullstackdev-dotfiles.git .dotfiles`
 1. Go into the directory => `cd .dotfiles`
 1. Run the bootstrapping script => `bash script/bootstrap`
@@ -29,6 +33,9 @@ Sadly this cannot be done in one single command as we need OhMyZsh installed bef
   ```bash
   sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
   ```
+  > The above command will trigger installation of xCode developer tools. Agree to the installation.
+  > Once the installation is done, rerun the oh-my-zsh installation above.
+
 2. Run this command:
 
   ```bash
