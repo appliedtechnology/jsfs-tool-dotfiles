@@ -2,7 +2,7 @@ cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
 tap 'caskroom/versions'
-tap 'caskroom/fonts'
+tap 'homebrew/cask-fonts'
 tap 'heroku/brew'
 
 
