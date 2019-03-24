@@ -28,7 +28,6 @@ brew 'spark'
 brew 'telnet'
 brew 'unrar'
 brew 'wget'
-brew 'yarn'
 
 cask 'docker'
 cask 'font-fira-code'
