@@ -7,6 +7,7 @@ bash ~/.dotfiles/script/bootstrap
 
 
 echo ">>>>>Setting correct version of node for the course"
-nvm install v10.15.0
-nvm alias default v10.15.0
+. ~/.dotfiles/nvm/nvm.zsh
+nvm install v10.15
+nvm alias default v10.15
 nvm use default
