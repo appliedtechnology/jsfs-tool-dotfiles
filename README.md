@@ -17,7 +17,7 @@ All your computers has been preconfigured by running the bootstrapping scripts a
   > Once the installation is done, rerun the oh-my-zsh installation above.
 
 4. Open a new terminal window
-1. Clone this repo into the `.dotfiles`-directory => `git clone https://github.com/saltsthlm/jsfullstackdev-dotfiles.git .dotfiles`
+1. Clone this repo into the `.dotfiles`-directory => `git clone https://github.com/saltsthlm/salt-jsfs-dotfiles.git .dotfiles`
 1. Go into the directory => `cd .dotfiles`
 1. Run the bootstrapping script => `bash script/bootstrap`
 1. Stay around for a few minutes, because there will be some questions early in the process
