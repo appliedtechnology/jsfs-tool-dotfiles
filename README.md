@@ -39,7 +39,7 @@ Sadly this cannot be done in one single command as we need OhMyZsh installed bef
 2. Run this command:
 
   ```bash
-  sh -c "$(curl -fsSL https://raw.githubusercontent.com/saltsthlm/salt-jsfs-dotfiles/master/script/automationSpring19.sh)"
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/saltsthlm/salt-jsfs-dotfiles/master/script/automationFall19.sh)"
   ```
 3. Wait for about 35 minutes per computer
 
