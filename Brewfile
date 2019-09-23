@@ -4,7 +4,7 @@ tap 'homebrew/bundle'
 tap 'caskroom/versions'
 tap 'homebrew/cask-fonts'
 tap 'heroku/brew'
-
+tap 'mongodb/brew'
 
 brew 'p7zip'
 brew 'coreutils'
