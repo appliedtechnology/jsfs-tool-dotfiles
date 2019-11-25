@@ -17,7 +17,7 @@ All your computers has been preconfigured by running the bootstrapping scripts a
   > Once the installation is done, rerun the oh-my-zsh installation above.
 
 4. Open a new terminal window
-1. Clone this repo into the `.dotfiles`-directory => `git clone https://github.com/saltsthlm/salt-jsfs-dotfiles.git .dotfiles`
+1. Clone this repo into the `.dotfiles`-directory => `git clone https://github.com/appliedtechnology/salt-jsfs-dotfiles.git .dotfiles`
 1. Go into the directory => `cd .dotfiles`
 1. Run the bootstrapping script => `bash script/bootstrap`
 1. Stay around for a few minutes, because there will be some questions early in the process
@@ -33,15 +33,17 @@ Sadly this cannot be done in one single command as we need OhMyZsh installed bef
   ```bash
   sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
   ```
+
   > The above command will trigger installation of xCode developer tools. Agree to the installation.
   > Once the installation is done, rerun the oh-my-zsh installation above.
 
-2. Run this command:
+1. Run this command:
 
   ```bash
-  sh -c "$(curl -fsSL https://raw.githubusercontent.com/saltsthlm/salt-jsfs-dotfiles/master/script/automationFall19.sh)"
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/appliedtechnology/salt-jsfs-dotfiles/master/script/saltAutomation.sh)"
   ```
-3. Wait for about 35 minutes per computer
+
+1. Wait for about 35 minutes per computer
 
 ### Keeping your computer updated
 
