@@ -1,7 +1,7 @@
 cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
-tap 'caskroom/versions'
+tap 'homebrew/cask-versions'
 tap 'homebrew/cask-fonts'
 tap 'heroku/brew'
 tap 'mongodb/brew'
