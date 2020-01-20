@@ -53,8 +53,8 @@ No worries - you can easily scrap the installations of both our dotfiles and the
 
 ```bash
 cd ~
-rm -rf .dotfiles
 uninstall_oh_my_zsh
+rm -rf .dotfiles
 ```
 
 Now you can install like described above.
