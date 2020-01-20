@@ -45,6 +45,22 @@ Sadly this cannot be done in one single command as we need OhMyZsh installed bef
 
 1. Wait for about 35 minutes per computer
 
+### Oh no - I've installed the wrong things and it's failing - do I need to reinstall the entire computer?
+
+(This section might or might not be written after a horrible incident... by Marcus).
+
+No worries - you can easily scrap the installations of both our dotfiles and the OhMyZsh, with these simple commands:
+
+```bash
+cd ~
+rm -rf .dotfiles
+uninstall_oh_my_zsh
+```
+
+Now you can install like described above.
+
+If you want to remove all the applications it is possible too (`brew uninstall` on everything in the [Brewfile](./Brewfile)) but probably easier and safer to just reinstall the computer. It takes about 30 minutes.
+
 ### Keeping your computer updated
 
 Things change. Often and fast. Every so often you would like to run the `dot` command that ensures that everything is up to date. I do this bi-weekly.
