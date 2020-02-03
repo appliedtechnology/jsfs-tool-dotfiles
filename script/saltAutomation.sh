@@ -2,6 +2,7 @@
 
 echo ">>>>Updating OSX stuff"
 sudo softwareupdate -i -a
+sudo spctl --master-disable ## Disables security stuff
 
 echo ">>>>>Installing homebrew"
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
