@@ -5,8 +5,7 @@ sudo softwareupdate -i -a
 sudo spctl --master-disable ## Disables security stuff in catalina that will drive the devs crazy
 
 echo ">>>>>Installing homebrew"
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" </dev/null ## /dev/null skips pressing enter for the installation
-
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" </dev/null ## /dev/null skips pressing enter for the installation
 
 echo ">>>>>Bootstrapping all the applications for the first time, overwriting all"
 git clone https://github.com/appliedtechnology/salt-jsfs-dotfiles.git ~/.dotfiles
