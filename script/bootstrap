@@ -48,7 +48,7 @@ link_file () {
         skip=true;
 
       else
-        overwrite_all=true;; # Always overwrite
+        overwrite_all=true # Always overwrite
 
         # user "File already exists: $dst ($(basename "$src")), what do you want to do?\n\
         # [s]kip, [S]kip all, [o]verwrite, [O]verwrite all, [b]ackup, [B]ackup all?"
