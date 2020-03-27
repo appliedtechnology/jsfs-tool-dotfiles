@@ -29,6 +29,7 @@ brew 'telnet'
 brew 'unrar'
 brew 'wget'
 
+cask 'discord'
 cask 'docker'
 cask 'font-fira-code'
 cask 'fork'
