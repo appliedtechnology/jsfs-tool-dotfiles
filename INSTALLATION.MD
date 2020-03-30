@@ -10,24 +10,27 @@ The following steps helps you through installing your computer so that it is rea
 
 2. The installation is going to be run as two scripts. We run scripts in a tool called the Terminal
 
-  - Press `⌘+Space` and type `terminal` and hit `Enter` to start a Terminal window
+    Press `⌘+Space` and type `terminal` and hit `Enter` to start a Terminal window
 
 3. Copy (`⌘+C`) the following command and paste (`⌘+V`) into the terminal window, then hit `Enter` to execute the command.
 
-   ```bash
-   sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-   ```
+    ```bash
+    sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+    ```
 
 4. The above command will trigger installation of XCode developer tools.
 
-  - Agree to the installation, by clicking on Agree
+    Agree to the installation, by clicking on the Agree-button
 
 5. Once the installation is done, rerun same command as above one more time.
 
-  - Click in the terminal window
-  - Hit the up-arrow key once to get the same command as in step 3 loaded
-  - Then hit `Enter` to execute the command.
-  - Answer `Y` if a question pops up to ask you if you want to change default change. Yes you do want that.
+    * Click in the terminal window
+
+    * Press the up-arrow key once to get the same command as in step 3 loaded
+
+    * Then hit `Enter` to execute the command.
+
+    * Answer `Y` if a question pops up to ask you if you want to change default change. Yes you do want that.
 
 6. Now we are going to install all the tools you will use in the course. This is done by copying (`⌘+C`) the following command and pasting (`⌘+V`) into the terminal window
 
