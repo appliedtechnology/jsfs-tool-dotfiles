@@ -11,14 +11,14 @@ All your computers has been preconfigured by running the bootstrapping scripts a
 
 #### First time user
 
-1. Start your Mac Book Pro for the first time will take you through an installation wizard. Follow the on-screen instructions. There are quite a few steps but most of the choices are really easy.
+1. Start your Mac Book Pro for the first time will take you through an installation wizard. Follow the on-screen instructions. 
 
-  1. Real developer uses dark mode... just sayin
-  2. Make sure that you both remember the password but also make it a good password
+  * There are quite a few steps in the wizard and it takes about 20-45 minutes to complete, depending on your internet connection speed
+  * Make sure that you both remember the password but also make it a good password
 
 2. The installation is going to be run as two scripts. We run scripts in a tool called the Terminal
 
-  1. Press `⌘+Space` and type `terminal` and hit `Enter` to start a Terminal window
+  - Press `⌘+Space` and type `terminal` and hit `Enter` to start a Terminal window
 
 3. Copy (`⌘+C`) the following command and paste (`⌘+V`) into the terminal window, then hit `Enter` to execute the command.
 
@@ -28,14 +28,14 @@ All your computers has been preconfigured by running the bootstrapping scripts a
 
 4. The above command will trigger installation of XCode developer tools. 
 
-  1. Agree to the installation, by clicking on Agree
+  - Agree to the installation, by clicking on Agree
 
 5. Once the installation is done, rerun same command as above one more time. 
 
-  1. Click in the terminal window
-  2. Hit the up-arrow key once to get the same command as in step 3 loaded 
-  3. Then hit `Enter` to execute the command.
-  4. Answer `Y` if a question pops up to ask you if you want to change default change. Yes you do want that.
+  - Click in the terminal window
+  - Hit the up-arrow key once to get the same command as in step 3 loaded 
+  - Then hit `Enter` to execute the command.
+  - Answer `Y` if a question pops up to ask you if you want to change default change. Yes you do want that.
 
 6. Now we are going to install all the tools you will use in the course. This is done by copying (`⌘+C`) the following command and pasting (`⌘+V`) into the terminal window
 
@@ -43,9 +43,12 @@ All your computers has been preconfigured by running the bootstrapping scripts a
    sh -c "$(curl -fsSL https://raw.githubusercontent.com/appliedtechnology/salt-jsfs-dotfiles/master/script/saltAutomation.sh)"
   ```
 
-  1. This installation takes quite a lot of time and will ask you for you password a few times
+  - This installation takes quite a lot of time (35 mins) and will ask you for you password a few times
+  - This is a good time for a cup of coffee. A few feet away from the computer. 
 
-7. Finally the installation is done. Now is a good time to restart your computer.
+7. Finally the installation is done. 
+
+   - Now is a good time to restart your computer.
 
 #### Semi-automatic
 
