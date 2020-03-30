@@ -1,47 +1,70 @@
 # jsfullstackdev-dotfiles
-With these files and scripts we have configured the development machines we are using in the FullStack Javascript developer course
+With these files and scripts we have configured the development machines we are using in the FullStack Javascript developer course. 
+
+The process is almost 
 
 All your computers has been preconfigured by running the bootstrapping scripts as described below.
 
-## How to's
+## Installation description
 
 ### Installing these dotfiles computer for the first time
 
-#### Semi-manually
+#### First time user
 
-1. Open the Terminal
-1. Go to the root folder => `cd ~`, if you are not there already
-1. Install [Oh My Zsh](http://ohmyz.sh/) => `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+1. Start your Mac Book Pro for the first time will take you through an installation wizard. Follow the on-screen instructions. There are quite a few steps but most of the choices are really easy.
 
-  > The above command will trigger installation of xCode developer tools. Agree to the installation.
-  > Once the installation is done, rerun the oh-my-zsh installation above.
+  1. Real developer uses dark mode... just sayin
+  2. Make sure that you both remember the password but also make it a good password
 
-4. Open a new terminal window
-1. Clone this repo into the `.dotfiles`-directory => `git clone https://github.com/appliedtechnology/salt-jsfs-dotfiles.git .dotfiles`
-1. Go into the directory => `cd .dotfiles`
-1. Run the bootstrapping script => `bash script/bootstrap`
-1. Stay around for a few minutes, because there will be some questions early in the process
-1. After the whole thing starts to crunch away - go get a coffee and read a book. There's a **lot** to download. Takes about 35 minutes for the first install
-1. When everything is done: restart you computer or at least the terminal
+2. The installation is going to be run as two scripts. We run scripts in a tool called the Terminal
+
+  1. Press `⌘+Space` and type `terminal` and hit `Enter` to start a Terminal window
+
+3. Copy (`⌘+C`) the following command and paste (`⌘+V`) into the terminal window, then hit `Enter` to execute the command.
+
+   ```bash
+   sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+   ```
+
+4. The above command will trigger installation of XCode developer tools. 
+
+  1. Agree to the installation, by clicking on Agree
+
+5. Once the installation is done, rerun same command as above one more time. 
+
+  1. Click in the terminal window
+  2. Hit the up-arrow key once to get the same command as in step 3 loaded 
+  3. Then hit `Enter` to execute the command.
+  4. Answer `Y` if a question pops up to ask you if you want to change default change. Yes you do want that.
+
+6. Now we are going to install all the tools you will use in the course. This is done by copying (`⌘+C`) the following command and pasting (`⌘+V`) into the terminal window
+
+  ```bash
+   sh -c "$(curl -fsSL https://raw.githubusercontent.com/appliedtechnology/salt-jsfs-dotfiles/master/script/saltAutomation.sh)"
+  ```
+
+  1. This installation takes quite a lot of time and will ask you for you password a few times
+
+7. Finally the installation is done. Now is a good time to restart your computer.
 
 #### Semi-automatic
 
-Sadly this cannot be done in one single command as we need OhMyZsh installed before running our own script.
+Sadly this cannot be done with one single command, due to some agreement signing needed for XCode tools. However, it's is not that bad - just two commands:
 
 1. First install [Oh My Zsh](http://ohmyz.sh/):
 
-  ```bash
-  sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-  ```
+   ```bash
+   sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+   ```
 
-  > The above command will trigger installation of xCode developer tools. Agree to the installation.
-  > Once the installation is done, rerun the oh-my-zsh installation above.
+   > The above command will trigger installation of xCode developer tools. Agree to the installation.
+   > Once the installation is done, rerun the oh-my-zsh installation above.
 
 1. Run this command:
 
-  ```bash
-  sh -c "$(curl -fsSL https://raw.githubusercontent.com/appliedtechnology/salt-jsfs-dotfiles/master/script/saltAutomation.sh)"
-  ```
+   ```bash
+   sh -c "$(curl -fsSL https://raw.githubusercontent.com/appliedtechnology/salt-jsfs-dotfiles/master/script/saltAutomation.sh)"
+   ```
 
 1. Wait for about 35 minutes per computer
 
