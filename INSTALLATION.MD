@@ -2,17 +2,21 @@
 
 The following steps helps you through installing your computer so that it is ready for you to use in the School Of Applied Technology career program.
 
-1. Start your Mac Book Pro for the first time will take you through an installation wizard. Follow the on-screen instructions.
+1. Start your Mac Book Pro for the first time will take you through an installation wizard
 
-    * There are quite a few steps in the wizard and it takes about 20-45 minutes to complete, depending on your internet connection speed
+    - Press the start button in the upper right corner. 
+    - In the steps that follow setup steps; selecting the correct region.
+    - You don't have to connect the computer to an ITunes account, or set up Siri.
+    - At one point you will be asked for a name, an account name and password. Set your own name as name, then create an account name and password that you remember.
 
-    * Make sure that you both remember the password but also make it a good password
+2. The initial setup of the computer will take you 20-40 minutes do. Once you are done you can log in to your computer for the first time. 
 
-2. The installation is going to be run as two scripts. We run scripts in a tool called the Terminal
+3. It is now time to install the tools you need to work as a developer
+    The installation is going to be run as two scripts. We run scripts in a tool called the Terminal
 
-    * Press `⌘+Space` and type `terminal` and hit `Enter` to start a Terminal window
+4. * Press `⌘+Space` and type `terminal` and hit `Enter` to start a Terminal window
 
-3. Copy (`⌘+C`) the following command and paste (`⌘+V`) into the terminal window, then hit `Enter` to execute the command.
+5. Copy (`⌘+C`) the following command and paste (`⌘+V`) into the terminal window, then hit `Enter` to execute the command.
 
     ```bash
     sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -20,11 +24,11 @@ The following steps helps you through installing your computer so that it is rea
 
     * Make sure you select all of the text in the box above.
 
-4. The above command will trigger installation of XCode developer tools.
+6. The above command will trigger installation of XCode developer tools.
 
     * Agree to the installation, by clicking on the Agree-button
 
-5. Once the installation is done, rerun same command as above one more time.
+7. Once the installation is done, rerun same command as above one more time.
 
     * Click in the terminal window
 
@@ -34,7 +38,7 @@ The following steps helps you through installing your computer so that it is rea
 
     * Answer `Y` if a question pops up to ask you if you want to change default change. Yes you do want that.
 
-6. Now we are going to install all the tools you will use in the course. This is done by copying (`⌘+C`) the following command and pasting (`⌘+V`) into the terminal window
+8. Now we are going to install all the tools you will use in the course. This is done by copying (`⌘+C`) the following command and pasting (`⌘+V`) into the terminal window
 
     ```bash
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/appliedtechnology/salt-jsfs-dotfiles/master/script/saltAutomation.sh)"
@@ -46,6 +50,6 @@ The following steps helps you through installing your computer so that it is rea
 
     * This is a good time for a cup of coffee. A few feet away from the computer.
 
-7. Finally the installation is done.
+9. Finally the installation is done.
 
     * Now is a good time to restart your computer.
