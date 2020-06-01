@@ -1,8 +1,6 @@
 # jsfullstackdev-dotfiles
 With these files and scripts we have configured the development machines we are using in the FullStack Javascript developer course.
 
-The process is almost
-
 All your computers has been preconfigured by running the bootstrapping scripts as described below.
 
 ## Installation description
