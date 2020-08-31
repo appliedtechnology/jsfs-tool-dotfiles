@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env zsh
 
 if [[ `id -u` != 0 ]]; then
     echo "Must be root to run script"

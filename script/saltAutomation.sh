@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env zsh
 
 echo ">>>>Updating OSX stuff"
 sudo softwareupdate -i -a
