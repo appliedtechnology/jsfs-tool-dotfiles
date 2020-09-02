@@ -4,10 +4,6 @@ echo ">>>>Updating OSX stuff"
 sudo softwareupdate -i -a
 sudo spctl --master-disable ## Disables security stuff in catalina that will drive the devs crazy
 
-echo ">>>>Reinstallting xcode-select"
-sudo rm -rf /Library/Developer/CommandLineTools
-xcode-select --install
-
 echo ">>>>>Installing homebrew"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" </dev/null ## /dev/null skips pressing enter for the installation
 
