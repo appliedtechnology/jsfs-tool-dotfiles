@@ -1,4 +1,5 @@
 # jsfullstackdev-dotfiles
+
 With these files and scripts we have configured the development machines we are using in the FullStack Javascript developer course.
 
 All your computers has been preconfigured by running the bootstrapping scripts as described below.
@@ -24,7 +25,14 @@ Sadly this installation cannot be done with one single command, due to some agre
 
 1. Wait for about 35 minutes per computer
 
-### Oh no - I've installed the wrong things and it's failing - do I need to reinstall the entire computer?
+1. You might wanna reinstall xcode commandline tools
+
+   ```bash
+   sudo rm -rf /Library/Developer/CommandLineTools
+   xcode-select --install
+   ```
+
+### Oh no - I've installed the wrong things and it's failing - do I need to reinstall the entire computer
 
 (This section might or might not be written after a horrible incident... by Marcus).
 
@@ -52,7 +60,7 @@ Stole this part from an [excellent description here](https://github.com/michaelm
 
 ### Topical
 
-Everything's built around topic areas. If you're adding a new area to your forked dotfiles — say, "Java" — you can simply add a java directory and put files in there. Anything with an extension of .zsh will get automatically included into your shell. Anything with an extension of .symlink will get symlinked without extension into $HOME when you run script/bootstrap.
+Everything's built around topic areas. If you're adding a new area to your forked dotfiles — say, "Java" — you can simply add a java directory and put files in there. Anything with an extension of .zsh will get automatically included into your shell. Anything with an extension of .symlink will get symlinked without extension into \$HOME when you run script/bootstrap.
 
 ### What's inside
 
@@ -62,8 +70,8 @@ A lot of stuff. Seriously, a lot of stuff. Check them out in the file browser ab
 
 There's a few special files in the hierarchy.
 
-* `bin/`: Anything in bin/ will get added to your `$PATH` and be made available everywhere.
-* `topic/*.zsh`: Any files ending in `.zsh` get loaded into your environment.
-* `topic/path.zsh`: Any file named path.zsh is loaded first and is expected to setup $PATH or similar.
-* `topic/completion.zsh`: Any file named completion.zsh is loaded last and is expected to setup autocomplete.
-* `topic/*.symlink`: Any files ending in `*.symlink` get symlinked into your `$HOME`. This is so you can keep all of those versioned in your dotfiles but still keep those autoloaded files in your home directory. These get symlinked in when you run `script/bootstrap`.
+- `bin/`: Anything in bin/ will get added to your `$PATH` and be made available everywhere.
+- `topic/*.zsh`: Any files ending in `.zsh` get loaded into your environment.
+- `topic/path.zsh`: Any file named path.zsh is loaded first and is expected to setup \$PATH or similar.
+- `topic/completion.zsh`: Any file named completion.zsh is loaded last and is expected to setup autocomplete.
+- `topic/*.symlink`: Any files ending in `*.symlink` get symlinked into your `$HOME`. This is so you can keep all of those versioned in your dotfiles but still keep those autoloaded files in your home directory. These get symlinked in when you run `script/bootstrap`.
