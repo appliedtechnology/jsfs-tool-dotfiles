@@ -15,8 +15,9 @@ Sadly this installation cannot be done with one single command, due to some agre
    ```
 
    > The above command will trigger installation of xCode developer tools. Agree to the installation.
-    09/10/2020 the installation of xCode Command Line Tools does not work as intented, another way of getting those is via this [link](https://developer.apple.com/download/more/?=command%20line%20tools) . Note that you have to sign in with your AppleID. 
    > Once the installation is done, rerun the oh-my-zsh installation above.
+
+#### 09/10/2020 the installation of xCode Command Line Tools does not work as intented, another way of getting those is via this [link](https://developer.apple.com/download/more/?=command%20line%20tools) . Note that you have to sign in with your AppleID.
 
 1. Run this command:
 
