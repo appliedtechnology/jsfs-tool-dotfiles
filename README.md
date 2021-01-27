@@ -20,7 +20,7 @@ Sadly this installation cannot be done with one single command, due to some agre
 
  As of 05/01/2021 it seems like apple fixed this issue, but i'll keep it here incase of.
 
-~~09/10/2020 the installation of xCode Command Line Tools does not work as intented, another way of getting those is via this [link](https://developer.apple.com/download/more/?=command%20line%20tools) . Note that you have to sign in with your AppleID.
+~~09/10/2020 the installation of xCode Command Line Tools does not work as intented, another way of getting those is via this [link](https://developer.apple.com/download/more/?=command%20line%20tools) . Note that you have to sign in with your AppleID.~~
 
 ---
 
